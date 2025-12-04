@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Elizaveta\\Documents\\backEnd\\TaskSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{563418AA-61A9-42C2-AF91-339A8CC89109}|TaskSystem\\TaskSystem.csproj|c:\\users\\elizaveta\\documents\\backend\\tasksystem\\tasksystem\\controllers\\v2\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563418AA-61A9-42C2-AF91-339A8CC89109}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\controllers\\v2\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563418AA-61A9-42C2-AF91-339A8CC89109}|TaskSystem\\TaskSystem.csproj|c:\\users\\elizaveta\\documents\\backend\\tasksystem\\tasksystem\\controllers\\v2\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563418AA-61A9-42C2-AF91-339A8CC89109}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\controllers\\v2\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563418AA-61A9-42C2-AF91-339A8CC89109}|TaskSystem\\TaskSystem.csproj|c:\\users\\elizaveta\\documents\\backend\\tasksystem\\tasksystem\\services\\shaper\\datashaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563418AA-61A9-42C2-AF91-339A8CC89109}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\services\\shaper\\datashaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563418AA-61A9-42C2-AF91-339A8CC89109}|TaskSystem\\TaskSystem.csproj|c:\\users\\elizaveta\\documents\\backend\\tasksystem\\tasksystem\\controllers\\internal\\redisinspectorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563418AA-61A9-42C2-AF91-339A8CC89109}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\controllers\\internal\\redisinspectorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{563418AA-61A9-42C2-AF91-339A8CC89109}|TaskSystem\\TaskSystem.csproj|c:\\users\\elizaveta\\documents\\backend\\tasksystem\\tasksystem\\validators\\paginationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{563418AA-61A9-42C2-AF91-339A8CC89109}|TaskSystem\\TaskSystem.csproj|solutionrelative:tasksystem\\validators\\paginationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\Elizaveta\\Documents\\backEnd\\TaskSystem\\TaskSystem\\Controllers\\v2\\ProjectController.cs",
+              "RelativeDocumentMoniker": "TaskSystem\\Controllers\\v2\\ProjectController.cs",
+              "ToolTip": "C:\\Users\\Elizaveta\\Documents\\backEnd\\TaskSystem\\TaskSystem\\Controllers\\v2\\ProjectController.cs",
+              "RelativeToolTip": "TaskSystem\\Controllers\\v2\\ProjectController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAIMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:05:13.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobController.cs",
+              "DocumentMoniker": "C:\\Users\\Elizaveta\\Documents\\backEnd\\TaskSystem\\TaskSystem\\Controllers\\v2\\JobController.cs",
+              "RelativeDocumentMoniker": "TaskSystem\\Controllers\\v2\\JobController.cs",
+              "ToolTip": "C:\\Users\\Elizaveta\\Documents\\backEnd\\TaskSystem\\TaskSystem\\Controllers\\v2\\JobController.cs",
+              "RelativeToolTip": "TaskSystem\\Controllers\\v2\\JobController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAowIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:04:14.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataShaper.cs",
+              "DocumentMoniker": "C:\\Users\\Elizaveta\\Documents\\backEnd\\TaskSystem\\TaskSystem\\Services\\Shaper\\DataShaper.cs",
+              "RelativeDocumentMoniker": "TaskSystem\\Services\\Shaper\\DataShaper.cs",
+              "ToolTip": "C:\\Users\\Elizaveta\\Documents\\backEnd\\TaskSystem\\TaskSystem\\Services\\Shaper\\DataShaper.cs",
+              "RelativeToolTip": "TaskSystem\\Services\\Shaper\\DataShaper.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T17:13:19.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RedisInspectorController.cs",
+              "DocumentMoniker": "C:\\Users\\Elizaveta\\Documents\\backEnd\\TaskSystem\\TaskSystem\\Controllers\\Internal\\RedisInspectorController.cs",
+              "RelativeDocumentMoniker": "TaskSystem\\Controllers\\Internal\\RedisInspectorController.cs",
+              "ToolTip": "C:\\Users\\Elizaveta\\Documents\\backEnd\\TaskSystem\\TaskSystem\\Controllers\\Internal\\RedisInspectorController.cs",
+              "RelativeToolTip": "TaskSystem\\Controllers\\Internal\\RedisInspectorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T17:13:04.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaginationValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Elizaveta\\Documents\\backEnd\\TaskSystem\\TaskSystem\\Validators\\PaginationValidator.cs",
+              "RelativeDocumentMoniker": "TaskSystem\\Validators\\PaginationValidator.cs",
+              "ToolTip": "C:\\Users\\Elizaveta\\Documents\\backEnd\\TaskSystem\\TaskSystem\\Validators\\PaginationValidator.cs",
+              "RelativeToolTip": "TaskSystem\\Validators\\PaginationValidator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T17:12:54.47Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
