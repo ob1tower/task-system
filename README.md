@@ -136,3 +136,57 @@ curl -X 'GET' \
 retry-after: 30
 x-limit-remaining: 0
 ```
+# Client Application (Lab3)
+
+## Overview
+The lab3 folder contains a client-side web application developed for interacting with an external REST API provided by another student as part of Laboratory Work №3.
+The client supports authentication, CRUD operations for teachers and courses, pagination, request-limit handling, and idempotent POST requests.
+### [1] What the Client Does
+1. Handles user authentication (login/register if provided).
+2. Displays, edits and deletes teachers and courses.
+3. Supports pagination and page-size switching.
+4. Implements idempotent POST operations via IdempotencyKey.
+5. Shows detailed error messages, including rate-limit errors (HTTP 429).
+### [2] The API that the client is working with
+The client interacts with an external API hosted at: http://localhost:8080/api/v2
+### [3] Fetching Teachers List
+When the Teachers page is opened, the client sends:
+#### Request
+`GET /api/v2/teachers?pageNumber=1&pageSize=10`
+#### Example response
+```
+[
+  {
+    "id": "019b172a-32ae-75f8-a0e9-97b8f65325cf",
+    "login": "teacher01",
+    "lastName": "Ivanov",
+    "firstName": "Ivan",
+    "middleName": "Sergeevich"
+  }
+]
+```
+### [4] Creating a Course
+The client uses an IdempotencyKey header to prevent duplicate course creation if the request is sent twice.
+#### Request
+```
+POST /api/v2/courses
+IdempotencyKey: <uuid>
+Authorization: Bearer <token>
+Content-Type: application/json
+```
+#### Body
+```
+{
+  "title": "Frontend Basics",
+  "description": "Introduction to frontend development",
+  "teacherId": "019b172a-32ae-75f8-a0e9-97b8f65325cf"
+}
+```
+#### Example response
+```
+{
+  "id": "<COURSE_ID>",
+  "title": "Frontend Basics",
+  "description": "Introduction to frontend development"
+}
+```
