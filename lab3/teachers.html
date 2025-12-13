@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Преподаватели</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="teachers">
+<div class="app-shell">
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-logo">CM</div>
+      <div>
+        <div class="brand-text-main">Course Management</div>
+      </div>
+    </div>
+    <div class="nav">
+      <a href="teachers.html" class="nav-link active">Преподаватели</a>
+      <a href="courses.html" class="nav-link">Курсы</a>
+
+      <div class="user-pill" id="user-pill" style="display:none">
+        <div class="user-avatar" id="user-avatar"></div>
+        <div class="user-login" id="user-login"></div>
+      </div>
+
+      <button class="btn-ghost btn-sm" id="logout-btn">Выйти</button>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <div id="error-box" class="error-box hidden">
+      <div class="error-badge">!</div>
+      <div id="error-text"></div>
+    </div>
+
+    <div id="success-box" class="success-box hidden">
+      <div class="success-badge">✓</div>
+      <div id="success-text"></div>
+    </div>
+
+    <section class="card">
+      <h2 class="page-title">Преподаватели</h2>
+      <p class="page-subtitle">
+        Здесь отображаются преподаватели. Можно редактировать или удалять данные.
+      </p>
+    </section>
+
+    <section class="card card-table">
+      <table>
+        <thead>
+        <tr>
+          <th>Логин</th>
+          <th>Фамилия</th>
+          <th>Имя</th>
+          <th>Отчество</th>
+          <th>Действия</th>
+        </tr>
+        </thead>
+        <tbody id="teachers-tbody"></tbody>
+      </table>
+
+      <div class="pagination pagination-center">
+        <button class="btn btn-outline btn-sm" id="teachers-prev">‹</button>
+
+        <span>Страница: <span class="tag-small" id="teachers-page">1</span></span>
+
+        <select id="teachers-page-size" class="page-size-select">
+          <option value="10" selected>10</option>
+          <option value="20">20</option>
+          <option value="50">50</option>
+        </select>
+
+        <button class="btn btn-outline btn-sm" id="teachers-next">›</button>
+      </div>
+
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="teacher-modal">
+    <div class="modal-window modal-centered">
+      <div class="modal-header">
+        <h3 class="modal-title" style="width: 100%; text-align: center;">
+          Редактирование преподавателя
+        </h3>
+        <button class="modal-close-btn" id="teacher-modal-close">✕</button>
+      </div>
+
+      <form id="teacher-form" class="modal-form" novalidate>
+        <input type="hidden" name="id">
+
+        <div class="form-row">
+          <div class="field">
+            <label>Логин</label>
+            <input type="text" name="login" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label>Фамилия</label>
+            <input type="text" name="lastName" required>
+          </div>
+
+          <div class="field">
+            <label>Имя</label>
+            <input type="text" name="firstName" required>
+          </div>
+
+          <div class="field">
+            <label>Отчество</label>
+            <input type="text" name="middleName">
+          </div>
+        </div>
+
+        <div class="actions modal-actions-center">
+          <button type="submit" class="btn btn-primary modal-save-btn">Сохранить</button>
+          <button type="button" class="btn modal-cancel-btn" id="teacher-modal-cancel">
+            Отмена
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

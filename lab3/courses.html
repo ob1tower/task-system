@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Курсы</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="courses">
+<div class="app-shell">
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-logo">CM</div>
+      <div>
+        <div class="brand-text-main">Course Management</div>
+        <div class="brand-text-sub">Курсы</div>
+      </div>
+    </div>
+    <div class="nav">
+      <a href="teachers.html" class="nav-link">Преподаватели</a>
+      <a href="courses.html" class="nav-link active">Курсы</a>
+
+      <div class="user-pill" id="user-pill" style="display:none">
+        <div class="user-avatar" id="user-avatar"></div>
+        <div class="user-login" id="user-login"></div>
+      </div>
+
+      <button class="btn-ghost btn-sm" id="logout-btn">Выйти</button>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <div id="error-box" class="error-box hidden">
+      <div class="error-badge">!</div>
+      <div id="error-text"></div>
+    </div>
+    
+      <div id="success-box" class="success-box hidden">
+            <div class="success-badge">✓</div>
+            <div id="success-text"></div>
+        </div>
+
+    <section class="card">
+      <h2 class="page-title">Курсы</h2>
+      <p class="page-subtitle">
+        Здесь отображаются все доступные курсы. Вы можете создать новый курс, отредактировать существующий или удалить ненужный.
+      </p>
+      <button class="btn btn-primary" id="course-create-btn">Создать курс</button>
+    </section>
+
+    <section class="card card-table">
+      <table>
+        <thead>
+        <tr>
+          <th>Название</th>
+          <th>Описание</th>
+          <th>Преподаватель</th>
+          <th>Создан</th>
+          <th>Действия</th>
+        </tr>
+        </thead>
+        <tbody id="courses-tbody"></tbody>
+      </table>
+
+<div class="pagination pagination-center">
+    <button class="btn btn-outline btn-sm" id="courses-prev">‹</button>
+
+    <span>Страница: <span class="tag-small" id="courses-page">1</span></span>
+
+    <select id="courses-page-size" class="page-size-select">
+      <option value="10" selected>10</option>
+      <option value="20">20</option>
+      <option value="50">50</option>
+    </select>
+
+    <button class="btn btn-outline btn-sm" id="courses-next">›</button>
+</div>
+
+    </section>
+  </main>
+
+  <div class="modal-backdrop" id="course-edit-modal">
+    <div class="modal-window modal-centered">
+
+      <div class="modal-header">
+        <h3 class="modal-title" id="course-modal-title">Редактирование курса</h3>
+        <button class="modal-close-btn" id="course-edit-close">✕</button>
+      </div>
+
+      <form id="course-edit-form" class="modal-form" novalidate>
+        <input type="hidden" name="id">
+
+        <div class="form-row">
+          <div class="field">
+            <label>Название</label>
+            <input type="text" name="title" required>
+          </div>
+          <div class="field">
+            <label>Описание</label>
+            <input type="text" name="description" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label>Преподаватель</label>
+            <select name="teacherId" id="course-edit-teacher" required></select>
+          </div>
+        </div>
+
+        <div class="actions modal-actions-center">
+          <button type="submit" class="btn btn-primary modal-save-btn">
+            Сохранить
+          </button>
+          <button type="button" class="btn modal-cancel-btn" id="course-edit-cancel">
+            Отмена
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

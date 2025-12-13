@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Регистрация</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="register" class="auth-page">
+<div class="auth-backdrop">
+  <div class="auth-modal">
+    <div class="auth-modal-header">
+      <h1 class="auth-title">Регистрация</h1>
+    </div>
+
+    <div class="auth-modal-body">
+      <p class="auth-subtitle">
+        Создайте учётную запись преподавателя, чтобы войти в систему.
+      </p>
+
+      <div id="error-box" class="error-box hidden">
+        <div class="error-badge">!</div>
+        <div id="error-text"></div>
+      </div>
+
+      <div id="success-box" class="success-box hidden">
+            <div class="success-badge">✓</div>
+            <div id="success-text"></div>
+        </div>
+
+      <form id="register-form" class="auth-form" novalidate>
+        <div class="field">
+          <label>Логин <span class="req"></span></label>
+          <input type="text" name="login" required>
+        </div>
+
+        <div class="field">
+          <label>Пароль <span class="req"></span></label>
+          <input type="password" name="password" required>
+        </div>
+
+        <div class="field">
+          <label>Фамилия <span class="req"></span></label>
+          <input type="text" name="lastName" required>
+        </div>
+
+        <div class="field">
+          <label>Имя <span class="req"></span></label>
+          <input type="text" name="firstName" required>
+        </div>
+
+        <div class="field">
+          <label>Отчество</label>
+          <input type="text" name="middleName">
+        </div>
+
+        <div class="actions actions-center">
+          <button type="submit" class="btn btn-primary auth-main-btn">Зарегистрироваться</button>
+        </div>
+
+        <div class="auth-secondary-block">
+          <div class="auth-secondary-text">Уже есть аккаунт?</div>
+          <a href="login.html" class="btn btn-outline auth-secondary-btn">
+            Войти
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

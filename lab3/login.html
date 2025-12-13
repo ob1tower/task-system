@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Авторизация</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="login" class="auth-page">
+<div class="auth-backdrop">
+  <div class="auth-modal">
+    <div class="auth-modal-header">
+      <h1 class="auth-title">Авторизация</h1>
+    </div>
+
+    <div class="auth-modal-body">
+      <p class="auth-subtitle">
+        Войдите в свою учётную запись, чтобы продолжить.
+      </p>
+
+      <div id="error-box" class="error-box hidden">
+        <div class="error-badge">!</div>
+        <div id="error-text"></div>
+      </div>
+
+      <div id="success-box" class="success-box hidden">
+            <div class="success-badge">✓</div>
+            <div id="success-text"></div>
+        </div>
+
+      <form id="login-form" class="auth-form" novalidate>
+        <div class="field">
+          <label>Логин <span class="req"></span></label>
+          <input type="text" name="login" autocomplete="username" required>
+        </div>
+
+        <div class="field">
+          <label>Пароль <span class="req"></span></label>
+          <input type="password" name="password" autocomplete="current-password" required>
+        </div>
+
+        <div class="actions actions-center">
+          <button type="submit" class="btn btn-primary auth-main-btn">Войти</button>
+        </div>
+
+        <div class="auth-secondary-block">
+          <div class="auth-secondary-text">У вас ещё нет аккаунта?</div>
+          <a href="register.html" class="btn btn-outline auth-secondary-btn">
+            Зарегистрироваться
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
