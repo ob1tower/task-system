@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ovaGWZgP1qk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Elizaveta\\Documents\\backEnd\\4lab\\4lab\\ClientApp\\TaskSystemClient\\TaskSystemClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Elizaveta\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
+    "C:\\Users\\Elizaveta\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Elizaveta\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
+    "C:\\Users\\Elizaveta\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

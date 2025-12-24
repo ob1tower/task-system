@@ -1,0 +1,293 @@
+2025-12-21 18:19:38.812 +00:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-12-21 18:19:38.868 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-21 18:19:38.884 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-12-21 18:19:38.893 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-12-21 18:19:38.895 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-21 18:19:38.909 +00:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-21 18:19:38.945 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-12-21 18:19:38.948 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-21 18:19:38.957 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-12-21 18:19:38.966 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-12-21 18:19:38.967 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-21 18:19:38.968 +00:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-21 18:19:39.076 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+2025-12-21 18:19:39.077 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-12-21 18:19:39.173 +00:00 [INF] Creating key {b82493b7-c684-4712-9f42-daa2cbf46c64} with creation date 2025-12-21 18:19:39Z, activation date 2025-12-21 18:19:39Z, and expiration date 2026-03-21 18:19:39Z.
+2025-12-21 18:19:39.178 +00:00 [WRN] No XML encryptor configured. Key {b82493b7-c684-4712-9f42-daa2cbf46c64} may be persisted to storage in unencrypted form.
+2025-12-21 18:19:39.182 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-b82493b7-c684-4712-9f42-daa2cbf46c64.xml'.
+2025-12-21 18:19:39.197 +00:00 [INF] Job message consumer started. Listening on queue: api.requests
+2025-12-21 18:19:39.236 +00:00 [INF] Now listening on: http://[::]:8080
+2025-12-21 18:19:39.238 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-21 18:19:39.239 +00:00 [INF] Hosting environment: Development
+2025-12-21 18:19:39.239 +00:00 [INF] Content root path: /app
+2025-12-21 18:29:19.673 +00:00 [INF] Application is shutting down...
+2025-12-21 18:29:19.687 +00:00 [INF] Job message consumer stopped
+2025-12-21 18:30:11.500 +00:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-12-21 18:30:11.581 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-21 18:30:11.618 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-12-21 18:30:11.633 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-12-21 18:30:11.636 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-21 18:30:11.670 +00:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-21 18:30:11.773 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-12-21 18:30:11.780 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-21 18:30:11.794 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-12-21 18:30:11.808 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-12-21 18:30:11.811 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-21 18:30:11.812 +00:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-21 18:30:12.054 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+2025-12-21 18:30:12.055 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-12-21 18:30:12.164 +00:00 [INF] Creating key {1a4d2909-929d-43a2-9c83-ce86e3ca02e3} with creation date 2025-12-21 18:30:12Z, activation date 2025-12-21 18:30:12Z, and expiration date 2026-03-21 18:30:12Z.
+2025-12-21 18:30:12.173 +00:00 [WRN] No XML encryptor configured. Key {1a4d2909-929d-43a2-9c83-ce86e3ca02e3} may be persisted to storage in unencrypted form.
+2025-12-21 18:30:12.179 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-1a4d2909-929d-43a2-9c83-ce86e3ca02e3.xml'.
+2025-12-21 18:30:12.198 +00:00 [INF] Job message consumer started. Listening on queue: api.requests
+2025-12-21 18:30:12.245 +00:00 [INF] Now listening on: http://[::]:8080
+2025-12-21 18:30:12.248 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-21 18:30:12.249 +00:00 [INF] Hosting environment: Development
+2025-12-21 18:30:12.250 +00:00 [INF] Content root path: /app
+2025-12-21 18:32:45.491 +00:00 [INF] Executed DbCommand (16ms) [Parameters=[@__userName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."UserId", u."CreatedAt", u."Email", u."PasswordHash", u."RoleId", u."UserName"
+FROM "Users" AS u
+WHERE u."UserName" = @__userName_0
+LIMIT 1
+2025-12-21 18:32:45.573 +00:00 [INF] Message processed successfully. Action: register_user
+2025-12-21 18:34:19.706 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."UserId", u."CreatedAt", u."Email", u."PasswordHash", u."RoleId", u."UserName"
+FROM "Users" AS u
+WHERE u."Email" = @__email_0
+LIMIT 1
+2025-12-21 18:34:19.715 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."UserId", u."CreatedAt", u."Email", u."PasswordHash", u."RoleId", u."UserName"
+FROM "Users" AS u
+WHERE u."Email" = @__email_0
+LIMIT 1
+2025-12-21 18:34:20.103 +00:00 [INF] Message processed successfully. Action: login_user
+2025-12-21 18:34:34.559 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__name_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT p."ProjectId", p."CreatedAt", p."Description", p."Name"
+FROM "Projects" AS p
+WHERE p."Name" = @__name_0
+LIMIT 1
+2025-12-21 18:34:34.566 +00:00 [ERR] Error processing action create_project
+CSharpFunctionalExtensions.ResultFailureException: You attempted to access the Value property for a failed result. A failed result has no Value. The error was: Проект с названием 'proj1' уже существует.
+   at CSharpFunctionalExtensions.Result`1.get_Value()
+   at TaskSystem.Services.Jobs.MessageProcessingService.ProcessActionAsync(String action, StandardRequestMessage request, IMessageBasedJobService jobService, IUsersService userService, IProjectService projectService, IIdempotencyService idempotencyService, String token) in /src/TaskSystem/Services/Jobs/MessageProcessingService.cs:line 320
+2025-12-21 18:34:34.591 +00:00 [INF] Message processed successfully. Action: create_project
+2025-12-21 18:34:40.724 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."ProjectId", t."CreatedAt", t."Description", t."Name", j."JobId", j."CreatedAt", j."Description", j."DueDate", j."ProjectId", j."Title"
+FROM (
+    SELECT p."ProjectId", p."CreatedAt", p."Description", p."Name"
+    FROM "Projects" AS p
+    ORDER BY p."CreatedAt"
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN "Jobs" AS j ON t."ProjectId" = j."ProjectId"
+ORDER BY t."CreatedAt", t."ProjectId"
+2025-12-21 18:34:40.767 +00:00 [INF] Message processed successfully. Action: get_all_projects
+2025-12-21 18:38:12.026 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__name_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT p."ProjectId", p."CreatedAt", p."Description", p."Name"
+FROM "Projects" AS p
+WHERE p."Name" = @__name_0
+LIMIT 1
+2025-12-21 18:38:12.157 +00:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Projects" ("ProjectId", "CreatedAt", "Description", "Name")
+VALUES (@p0, @p1, @p2, @p3);
+2025-12-21 18:38:12.184 +00:00 [INF] Message processed successfully. Action: create_project
+2025-12-21 18:38:13.779 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."ProjectId", t."CreatedAt", t."Description", t."Name", j."JobId", j."CreatedAt", j."Description", j."DueDate", j."ProjectId", j."Title"
+FROM (
+    SELECT p."ProjectId", p."CreatedAt", p."Description", p."Name"
+    FROM "Projects" AS p
+    ORDER BY p."CreatedAt"
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN "Jobs" AS j ON t."ProjectId" = j."ProjectId"
+ORDER BY t."CreatedAt", t."ProjectId"
+2025-12-21 18:38:13.781 +00:00 [INF] Message processed successfully. Action: get_all_projects
+2025-12-21 18:41:01.887 +00:00 [INF] Message processed successfully. Action: get_project
+2025-12-21 18:41:37.405 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__name_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT p."ProjectId", p."CreatedAt", p."Description", p."Name"
+FROM "Projects" AS p
+WHERE p."Name" = @__name_0
+LIMIT 1
+2025-12-21 18:41:37.415 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Projects" ("ProjectId", "CreatedAt", "Description", "Name")
+VALUES (@p0, @p1, @p2, @p3);
+2025-12-21 18:41:37.417 +00:00 [INF] Message processed successfully. Action: create_project
+2025-12-21 18:41:40.616 +00:00 [INF] Executed DbCommand (3ms) [Parameters=[@__name_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT p."ProjectId", p."CreatedAt", p."Description", p."Name"
+FROM "Projects" AS p
+WHERE p."Name" = @__name_0
+LIMIT 1
+2025-12-21 18:41:40.618 +00:00 [ERR] Error processing action create_project
+CSharpFunctionalExtensions.ResultFailureException: You attempted to access the Value property for a failed result. A failed result has no Value. The error was: Проект с названием 'idemtest' уже существует.
+   at CSharpFunctionalExtensions.Result`1.get_Value()
+   at TaskSystem.Services.Jobs.MessageProcessingService.ProcessActionAsync(String action, StandardRequestMessage request, IMessageBasedJobService jobService, IUsersService userService, IProjectService projectService, IIdempotencyService idempotencyService, String token) in /src/TaskSystem/Services/Jobs/MessageProcessingService.cs:line 320
+2025-12-21 18:41:40.620 +00:00 [INF] Message processed successfully. Action: create_project
+2025-12-21 18:41:41.892 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__name_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT p."ProjectId", p."CreatedAt", p."Description", p."Name"
+FROM "Projects" AS p
+WHERE p."Name" = @__name_0
+LIMIT 1
+2025-12-21 18:41:41.893 +00:00 [ERR] Error processing action create_project
+CSharpFunctionalExtensions.ResultFailureException: You attempted to access the Value property for a failed result. A failed result has no Value. The error was: Проект с названием 'idemtest' уже существует.
+   at CSharpFunctionalExtensions.Result`1.get_Value()
+   at TaskSystem.Services.Jobs.MessageProcessingService.ProcessActionAsync(String action, StandardRequestMessage request, IMessageBasedJobService jobService, IUsersService userService, IProjectService projectService, IIdempotencyService idempotencyService, String token) in /src/TaskSystem/Services/Jobs/MessageProcessingService.cs:line 320
+2025-12-21 18:41:41.896 +00:00 [INF] Message processed successfully. Action: create_project
+2025-12-21 18:41:42.526 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__name_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT p."ProjectId", p."CreatedAt", p."Description", p."Name"
+FROM "Projects" AS p
+WHERE p."Name" = @__name_0
+LIMIT 1
+2025-12-21 18:41:42.528 +00:00 [ERR] Error processing action create_project
+CSharpFunctionalExtensions.ResultFailureException: You attempted to access the Value property for a failed result. A failed result has no Value. The error was: Проект с названием 'idemtest' уже существует.
+   at CSharpFunctionalExtensions.Result`1.get_Value()
+   at TaskSystem.Services.Jobs.MessageProcessingService.ProcessActionAsync(String action, StandardRequestMessage request, IMessageBasedJobService jobService, IUsersService userService, IProjectService projectService, IIdempotencyService idempotencyService, String token) in /src/TaskSystem/Services/Jobs/MessageProcessingService.cs:line 320
+2025-12-21 18:41:42.529 +00:00 [INF] Message processed successfully. Action: create_project
+2025-12-21 18:41:43.053 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__name_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT p."ProjectId", p."CreatedAt", p."Description", p."Name"
+FROM "Projects" AS p
+WHERE p."Name" = @__name_0
+LIMIT 1
+2025-12-21 18:41:43.055 +00:00 [ERR] Error processing action create_project
+CSharpFunctionalExtensions.ResultFailureException: You attempted to access the Value property for a failed result. A failed result has no Value. The error was: Проект с названием 'idemtest' уже существует.
+   at CSharpFunctionalExtensions.Result`1.get_Value()
+   at TaskSystem.Services.Jobs.MessageProcessingService.ProcessActionAsync(String action, StandardRequestMessage request, IMessageBasedJobService jobService, IUsersService userService, IProjectService projectService, IIdempotencyService idempotencyService, String token) in /src/TaskSystem/Services/Jobs/MessageProcessingService.cs:line 320
+2025-12-21 18:41:43.056 +00:00 [INF] Message processed successfully. Action: create_project
+2025-12-21 18:41:43.548 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__name_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT p."ProjectId", p."CreatedAt", p."Description", p."Name"
+FROM "Projects" AS p
+WHERE p."Name" = @__name_0
+LIMIT 1
+2025-12-21 18:41:43.550 +00:00 [ERR] Error processing action create_project
+CSharpFunctionalExtensions.ResultFailureException: You attempted to access the Value property for a failed result. A failed result has no Value. The error was: Проект с названием 'idemtest' уже существует.
+   at CSharpFunctionalExtensions.Result`1.get_Value()
+   at TaskSystem.Services.Jobs.MessageProcessingService.ProcessActionAsync(String action, StandardRequestMessage request, IMessageBasedJobService jobService, IUsersService userService, IProjectService projectService, IIdempotencyService idempotencyService, String token) in /src/TaskSystem/Services/Jobs/MessageProcessingService.cs:line 320
+2025-12-21 18:41:43.551 +00:00 [INF] Message processed successfully. Action: create_project
+2025-12-21 18:41:44.047 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__name_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT p."ProjectId", p."CreatedAt", p."Description", p."Name"
+FROM "Projects" AS p
+WHERE p."Name" = @__name_0
+LIMIT 1
+2025-12-21 18:41:44.048 +00:00 [ERR] Error processing action create_project
+CSharpFunctionalExtensions.ResultFailureException: You attempted to access the Value property for a failed result. A failed result has no Value. The error was: Проект с названием 'idemtest' уже существует.
+   at CSharpFunctionalExtensions.Result`1.get_Value()
+   at TaskSystem.Services.Jobs.MessageProcessingService.ProcessActionAsync(String action, StandardRequestMessage request, IMessageBasedJobService jobService, IUsersService userService, IProjectService projectService, IIdempotencyService idempotencyService, String token) in /src/TaskSystem/Services/Jobs/MessageProcessingService.cs:line 320
+2025-12-21 18:41:44.050 +00:00 [INF] Message processed successfully. Action: create_project
+2025-12-21 18:41:44.612 +00:00 [INF] Executed DbCommand (2ms) [Parameters=[@__name_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT p."ProjectId", p."CreatedAt", p."Description", p."Name"
+FROM "Projects" AS p
+WHERE p."Name" = @__name_0
+LIMIT 1
+2025-12-21 18:41:44.613 +00:00 [ERR] Error processing action create_project
+CSharpFunctionalExtensions.ResultFailureException: You attempted to access the Value property for a failed result. A failed result has no Value. The error was: Проект с названием 'idemtest' уже существует.
+   at CSharpFunctionalExtensions.Result`1.get_Value()
+   at TaskSystem.Services.Jobs.MessageProcessingService.ProcessActionAsync(String action, StandardRequestMessage request, IMessageBasedJobService jobService, IUsersService userService, IProjectService projectService, IIdempotencyService idempotencyService, String token) in /src/TaskSystem/Services/Jobs/MessageProcessingService.cs:line 320
+2025-12-21 18:41:44.615 +00:00 [INF] Message processed successfully. Action: create_project
+2025-12-21 18:41:46.546 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."ProjectId", t."CreatedAt", t."Description", t."Name", j."JobId", j."CreatedAt", j."Description", j."DueDate", j."ProjectId", j."Title"
+FROM (
+    SELECT p."ProjectId", p."CreatedAt", p."Description", p."Name"
+    FROM "Projects" AS p
+    ORDER BY p."CreatedAt"
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN "Jobs" AS j ON t."ProjectId" = j."ProjectId"
+ORDER BY t."CreatedAt", t."ProjectId"
+2025-12-21 18:41:46.547 +00:00 [INF] Message processed successfully. Action: get_all_projects
+2025-12-21 18:42:41.881 +00:00 [INF] Application is shutting down...
+2025-12-21 18:42:41.914 +00:00 [INF] Job message consumer stopped

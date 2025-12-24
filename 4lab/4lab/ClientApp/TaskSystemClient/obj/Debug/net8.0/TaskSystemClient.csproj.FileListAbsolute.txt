@@ -1,0 +1,36 @@
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/bin/Debug/net8.0/TaskSystemClient
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/bin/Debug/net8.0/TaskSystemClient.deps.json
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/bin/Debug/net8.0/TaskSystemClient.runtimeconfig.json
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/bin/Debug/net8.0/TaskSystemClient.dll
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/bin/Debug/net8.0/TaskSystemClient.pdb
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/bin/Debug/net8.0/RabbitMQ.Client.dll
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/bin/Debug/net8.0/System.Text.Json.dll
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/obj/Debug/net8.0/TaskSystemClient.csproj.AssemblyReference.cache
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/obj/Debug/net8.0/TaskSystemClient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/obj/Debug/net8.0/TaskSystemClient.AssemblyInfoInputs.cache
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/obj/Debug/net8.0/TaskSystemClient.AssemblyInfo.cs
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/obj/Debug/net8.0/TaskSystemClient.csproj.CoreCompileInputs.cache
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/obj/Debug/net8.0/TaskSystemClient.sourcelink.json
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/obj/Debug/net8.0/TaskSystemClient.csproj.CopyComplete
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/obj/Debug/net8.0/TaskSystemClient.dll
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/obj/Debug/net8.0/refint/TaskSystemClient.dll
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/obj/Debug/net8.0/TaskSystemClient.pdb
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/obj/Debug/net8.0/TaskSystemClient.genruntimeconfig.cache
+/Users/mtrx/Desktop/УНИВЕР/не мое/task-system/4lab/ClientApp/TaskSystemClient/obj/Debug/net8.0/ref/TaskSystemClient.dll
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\bin\Debug\net8.0\TaskSystemClient.exe
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\bin\Debug\net8.0\TaskSystemClient.deps.json
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\bin\Debug\net8.0\TaskSystemClient.runtimeconfig.json
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\bin\Debug\net8.0\TaskSystemClient.dll
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\bin\Debug\net8.0\TaskSystemClient.pdb
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\obj\Debug\net8.0\TaskSystemClient.csproj.AssemblyReference.cache
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\obj\Debug\net8.0\TaskSystemClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\obj\Debug\net8.0\TaskSystemClient.AssemblyInfoInputs.cache
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\obj\Debug\net8.0\TaskSystemClient.AssemblyInfo.cs
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\obj\Debug\net8.0\TaskSystemClient.csproj.CoreCompileInputs.cache
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\obj\Debug\net8.0\TaskSyst.2270C1AE.Up2Date
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\obj\Debug\net8.0\TaskSystemClient.dll
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\obj\Debug\net8.0\refint\TaskSystemClient.dll
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\obj\Debug\net8.0\TaskSystemClient.pdb
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\obj\Debug\net8.0\TaskSystemClient.genruntimeconfig.cache
+C:\Users\Elizaveta\Documents\backEnd\4lab\4lab\ClientApp\TaskSystemClient\obj\Debug\net8.0\ref\TaskSystemClient.dll
